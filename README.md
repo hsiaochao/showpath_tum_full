@@ -1,4 +1,4 @@
-#  showpath_tum_02
+#  showpath_tum_full
 
 #### 介绍
 相比于https://gitee.com/hsiaochao/showpath_tum，
@@ -13,7 +13,7 @@
 下载源码到工作空间的src文件夹：
 ```
 $ cd catkin_ws/src
-$  git clone https://gitee.com/hsiaochao/showpath_tum_02/
+$  git clone https://gitee.com/hsiaochao/showpath_tum_full/
 ```
 编译项目：
 ```
