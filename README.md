@@ -7,22 +7,19 @@ This work uses rviz to draw a full picture of the trajectory in Tum format in a 
 Description Using ROS system and C++language, refer to CMakeLists.txt for configuration, usually only ROS and cmake need to be installed.
 
 #### Installation and Compilation
-Download this source code into the src folder of your catkin worksapce:
+Download this source code into the src folder of your catkin worksapce and catkin_make:
 ```
-$ cd catkin_ws/src
-$  git clone https://github.com/hsiaochao/showpath_tum_full
-```
-Compile the project:
-```
-$ cd catkin_ws
-$ source devel/setup.bash
-$ catkin_make
+cd ~/catkin_ws/src
+git clone https://github.com/hsiaochao/showpath_tum_full
+cd ../
+catkin_make
+source ~/catkin_ws/devel/setup.bash
 ```
 #### How to use it
 
 Start the project on a terminal:
 ```
-$ roslaunch showpath_tum showpath01.launch
+roslaunch showpath_tum showpath01.launch
 ```
 You can complete the playback trajectory in rviz.
 #### Participate in contributions
